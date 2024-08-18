@@ -9,12 +9,6 @@ This chatbot is designed for Eastern Visayas State University (EVSU) as a dynami
 - **Response Suggestions**: After each interaction, the chatbot suggests related keywords, guiding users to explore more topics.
 - **No Input Required**: Users interact with the chatbot by clicking on keywords, making it simple and intuitive to use, even on mobile devices.
 
-## How It Works:
-
-1. **Select a Keyword**: The user selects a keyword from the list of suggestions.
-2. **Receive a Response**: The chatbot fetches the relevant response from the database and displays it.
-3. **Explore Further**: The chatbot provides additional keyword suggestions based on the user's query, allowing for further exploration of related topics.
-
 This chatbot aims to enhance the accessibility of information for EVSU students, faculty, and visitors by providing quick and easy access to frequently sought information in a modern and user-friendly way.
 
 ## Database Installation
@@ -32,4 +26,11 @@ To set up the database for the EVSU Chatbot, follow these steps:
    - Ensure that your database connection settings in the application match the credentials for your database server.
    - The chatbot is now ready to use with the pre-configured database.
 
-By following these steps, the database will be set up, and the chatbot will have access to the necessary tables and data to function properly.
+## Admin Credentials
+
+The application includes an admin account for managing the chatbot's responses and keywords:
+
+- **Username**: `admin`
+- **Password**: `admin123`
+
+You can use these credentials to log in to the admin panel and customize the chatbot's content and settings.
